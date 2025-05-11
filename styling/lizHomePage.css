@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: #8a0c54 !important;
+}
+
+.navbar-brand {
+  font-family: "Gluten", cursive;
+}
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .nav-item .dropdown-toggle {
+  color: white !important;
+}
+
+.content {
+  height: 90vh;
+}
+
+.footer {
+  background-color: #8a0c54 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.footer .social-media {
+  color: #ffffff !important;
+}
+
+.portfolio-banner {
+  min-height: 100vh;
+}
+
+.text-highlight {
+  color: #912261;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 2px solid #89426a;
+  transition: transform 0.4s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+.btn-about:hover {
+  color: #62073c !important;
+  border-color: #62073c;
+  background-color: transparent;
+}
+
+.btn-about:active {
+  background-color: #62073c !important;
+  color: #ffff !important;
+  border-color: #62073c !important;
+}
+
+.about-me-card {
+  width: 100%;
+  background-color: #ffffff;
+  color: #62073c !important;
+  border: none;
+}
+
+.about-me-card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 128, 0, 0.2);
+  cursor: pointer;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.card-subtitle {
+  color: #1b1a1a !important;
+}

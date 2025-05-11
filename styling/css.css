@@ -1,0 +1,59 @@
+/* Font Links */
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Overall styling for the starting and profile page */
+* {
+	font-family: "Inter", sans-serif;
+}
+body {
+	background: linear-gradient(to top, #f38c79, #3f00b5be);
+}
+
+.container-fluid {
+	height: 100vh;
+}
+
+p {
+	font-family: "Gluten", cursive;
+	color: white;
+}
+
+.btn-submit {
+	background-color: linear-gradient(to top, #f38c79, #0027b5be);
+	color: white;
+	width: 170px;
+	border: solid 1px #ffffff;
+}
+
+.btn-submit:hover {
+	background-color: #ffff;
+	border-color: none;
+	color: linear-gradient(to top, #f38c79, #0027b5be);
+}
+
+p.text {
+	color: white;
+}
+
+.team-img {
+	width: 25vw;
+	height: 25vw;
+	max-width: 200px;
+	max-height: 200px;
+	object-fit: cover;
+}
+
+p.users {
+	font-family: "Gluten", cursive;
+	color: #ffffff;
+	transition: transform 0.3s ease, shadow 0.3s ease;
+}
+
+.custom-hover {
+	transition: transform 0.3s ease, shadow 0.3s ease;
+}
+
+.custom-hover:hover {
+	transform: translateY(-10px);
+}

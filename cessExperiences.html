@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cessie's Skills</title>
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<!-- Bootstrap Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="styling/cessExperiences.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid">
+					<a class="navbar-brand me-5 custom-hover" href="cessHomePage.html"
+						>Cessie | Portfolio</a
+					>
+					<div class="d-flex d-lg-none align-items-center ms-auto">
+						<a href="profilePage.html" class="nav-link">
+							<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+						</a>
+						<button
+							class="navbar-toggler m-2"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent"
+							data-bs-target="#logoutModal"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+
+					<div
+						class="collapse navbar-collapse justify-content-center"
+						id="navbarSupportedContent"
+					>
+						<ul class="navbar-nav mb-2 mb-lg-0">
+							<li class="nav-item mx-3">
+								<a
+									class="nav-link custom-color"
+									aria-current="page"
+									href="cessHomePage.html"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item dropdown mx-3">
+								<a
+									class="nav-link dropdown-toggle custom-hover"
+									href="cessSkills.html"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Autobiography
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="cessSkills.html">Skills</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="cessProjects.html"
+											>Projects</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item" href="cessGallery.html">Gallery</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown mx-3">
+								<a
+									class="nav-link dropdown-toggle custom-hover"
+									href="cessJourney.html"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Blog
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="cessJourney.html"
+											>Journey in College</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item" href="cessExperiences.html"
+											>IT Experiences</a
+										>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="d-none d-lg-flex align-items-center">
+						<a
+							href="profilePage.html"
+							class="nav-link"
+							data-bs-toggle="modal"
+							data-bs-target="#logoutModal"
+						>
+							<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="blog-section">
+				<h2>My IT Experience</h2>
+				<div class="blog-post">
+					<img src="images/exp.jpg" alt="Internship Moments" />
+					<h3>💾 My IT Journey: Learning, Challenges, and Growth</h3>
+					<p>
+						Through the past three years of being an IT student, I have most
+						definitely learned a lot — from writing simple loops to handling
+						intricate data manipulations. What once seemed like intimidating
+						tasks have now become familiar tools in my skillset. Over time, I’ve
+						gained experience with several programming languages and
+						technologies. I learned Java, which taught me about object-oriented
+						programming and how to structure my code effectively. I explored
+						SQL, diving into the world of databases and understanding how to
+						store, retrieve, and manage data efficiently. I also worked with
+						PHP, which opened the door for me to enhance my web development
+						skills — both on the front end and back end. But it wasn’t just
+						about coding. Along the way, I improved my networking skills,
+						learning how systems communicate, how to configure networks, and how
+						to troubleshoot problems that arise in real-world setups. Of course,
+						the journey wasn’t without challenges. There were times I faced
+						difficult projects, unfamiliar technologies, and moments of
+						frustration. But every challenge was worth it. Each obstacle became
+						a learning experience, pushing me to grow and expand my knowledge.
+						The satisfaction of finally solving a tough problem or successfully
+						completing a challenging project reminded me why I chose this path
+						in the first place. Looking back, I can proudly say that these past
+						years have not only sharpened my technical abilities but have also
+						strengthened my resilience, problem-solving mindset, and passion for
+						continuous learning. And I know this is just the beginning — there’s
+						still so much more to explore and achieve in the world of IT.
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<div
+			class="modal fade"
+			id="logoutModal"
+			tabindex="-1"
+			aria-labelledby="logoutModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div
+					class="modal-content rounded-4 shadow-lg"
+					style="background-color: #fdf6ff"
+				>
+					<div class="modal-header border-0">
+						<h5
+							class="modal-title fw-bold"
+							id="logoutModalLabel"
+							style="color: #325b90"
+						>
+							Are you sure?
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body text-center">
+						<p class="mb-3" style="font-size: 1rem; color: #444">
+							Do you really want to switch the user?
+						</p>
+					</div>
+					<div class="modal-footer border-0 justify-content-center">
+						<button
+							type="button"
+							class="btn btn-outline-secondary rounded-pill px-4"
+							data-bs-dismiss="modal"
+						>
+							No
+						</button>
+						<a
+							href="profilePage.html"
+							class="btn btn-primary rounded-pill px-4"
+							style="background-color: #ab2436; border: none"
+							>Yes</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="text-center">
+			<small>&copy; 2025 Cessie’s Portfolio. All rights reserved.</small>
+		</footer>
+	</body>
+</html>

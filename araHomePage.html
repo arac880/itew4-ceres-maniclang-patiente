@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Personal Portfolio</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+
+		<link rel="stylesheet" href="styling/araHomePage.css" />
+	</head>
+	<body id="Home">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand me-5" href="#Home">Arman | Portfolio</a>
+				<div class="d-flex d-lg-none align-items-center ms-auto">
+					<a href="profilePage.html" class="nav-link">
+						<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						data-bs-target="#logoutModal"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+
+				<div
+					class="collapse navbar-collapse justify-content-center"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item mx-3">
+							<a class="nav-link active" aria-current="page" href="#Home"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item dropdown mx-3">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Autobiography
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="araSkillsPage.html#Skills"
+										>Skills</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="araProjectsPage.html#Projects"
+										>Projects</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="araGalleryPage.html#Gallery"
+										>Gallery</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown mx-3">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Blog
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="araBlog1Page.html#Blog1"
+										>Journey in College</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="araBlog2Page.html#Blog2"
+										>IT Experiences</a
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="d-none d-lg-flex align-items-center">
+					<a
+						href="profilePage.html"
+						class="nav-link"
+						data-bs-toggle="modal"
+						data-bs-target="#logoutModal"
+					>
+						<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Hero Section -->
+		<section class="hero py-5 text-center">
+			<div class="container">
+				<h1 class="display-4 fw-bold">Explore My Creative Space.</h1>
+				<p class="lead">
+					Hi, I'm Ara — an aspiring IT professional, passionate musician, and
+					visual artist who turns ideas into interactive designs and code.
+				</p>
+				<img
+					src="images/ara-hero-pic.jpg"
+					alt="Arman's Portrait"
+					class="img-fluid mt-4"
+				/>
+			</div>
+		</section>
+
+		<!-- Autobiography Section -->
+		<section class="authobio text-center">
+			<div class="container pb-5">
+				<h2 class="pt-4 pb-4">AUTOBIOGRAPHY</h2>
+				<div class="row g-4">
+					<div class="col-md-4">
+						<div class="p-4 rounded-4 shadow-sm bg-white">
+							<i class="bi bi-stars fs-1 mb-3 d-block"></i>
+							<h4>Skills</h4>
+							<p class="card-text">
+								From aspiring developer to music production and portrait artist!
+								Creativity and logic meet in my toolkit.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="p-4 rounded-4 shadow-sm bg-white">
+							<i class="bi bi-code-slash fs-1 mb-3 d-block"></i>
+							<h4>Projects</h4>
+							<p class="card-text">
+								Explore my coding portfolio, from student systems to
+								music-related web apps and experimental designs.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="p-4 rounded-4 shadow-sm bg-white">
+							<i class="bi bi-images fs-1 mb-3 d-block"></i>
+							<h4>Gallery</h4>
+							<p class="card-text">
+								A peek into my world of visual art, original digital
+								illustrations and passion projects inspired by music and tech.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Blog Section -->
+		<section class="text-center">
+			<div class="container p-5">
+				<h2>Blog</h2>
+				<div class="row g-4">
+					<div class="col-md-6">
+						<div class="p-4 rounded-4 shadow-sm bg-light">
+							<i
+								class="bi bi-mortarboard-fill fs-1 mb-3 d-block text-success"
+							></i>
+							<h4>Journey in College</h4>
+							<p class="card-text">
+								Stories and insights about my academic life, discoveries in IT,
+								and growing through challenges as a creative student.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="p-4 rounded-4 shadow-sm bg-light">
+							<i class="bi bi-cpu fs-1 mb-3 d-block"></i>
+							<h4>IT Experiences</h4>
+							<p class="card-text">
+								Thoughts, reflections, and mini-tutorials from hands-on
+								projects, tech internships, and real-world learning moments.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="text-white py-3 footer">
+			<div class="container footer-container">
+				<div class="row text-center text-lg-start align-items-center">
+					<div class="col-lg-4 mb-2 mb-lg-0">
+						<span>Designed by Ara Christina Ceres</span>
+					</div>
+					<div class="col-lg-4 mb-2 mb-lg-0 text-center">
+						<a href="https://www.facebook.com/rai2929" class="text-white mx-2"
+							><i class="bi bi-facebook social-media"></i
+						></a>
+						<a href="https://x.com/_raixxel" class="text-white mx-2"
+							><i class="bi bi-twitter social-media"></i
+						></a>
+						<a
+							href="https://www.instagram.com/_raixeel/"
+							class="text-white mx-2"
+							><i class="bi bi-instagram social-media"></i
+						></a>
+						<a href="https://github.com/arac880" class="text-white mx-2"
+							><i class="bi bi-github social-media"></i
+						></a>
+					</div>
+					<div class="col-lg-4 text-lg-end">
+						<span>&copy; 2025 Ara C. | All Rights Reserved</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div
+			class="modal fade"
+			id="logoutModal"
+			tabindex="-1"
+			aria-labelledby="logoutModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div
+					class="modal-content rounded-4 shadow-lg"
+					style="background-color: #fdf6ff"
+				>
+					<div class="modal-header border-0">
+						<h5
+							class="modal-title fw-bold"
+							id="logoutModalLabel"
+							style="color: #325b90"
+						>
+							Are you sure?
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body text-center">
+						<p class="mb-3" style="font-size: 1rem; color: #444">
+							Do you really want to switch the user?
+						</p>
+					</div>
+					<div class="modal-footer border-0 justify-content-center">
+						<button
+							type="button"
+							class="btn btn-outline-secondary rounded-pill px-4"
+							data-bs-dismiss="modal"
+						>
+							No
+						</button>
+						<a
+							href="profilePage.html"
+							class="btn btn-primary rounded-pill px-4"
+							style="background-color: #ab2436; border: none"
+							>Yes</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

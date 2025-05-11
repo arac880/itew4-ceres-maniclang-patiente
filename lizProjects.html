@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Zeli|Portfolio Projects</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+
+		<link rel="stylesheet" href="styling/lizSkills.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand me-5" href="#">Zeli | Portfolio</a>
+				<div class="d-flex d-lg-none align-items-center ms-auto">
+					<a href="profilePage.html" class="nav-link">
+						<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						data-bs-target="#logoutModal"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+
+				<div
+					class="collapse navbar-collapse justify-content-center"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item mx-3">
+							<a class="nav-link" href="lizHomePage.html">Home</a>
+						</li>
+						<li class="nav-item dropdown mx-3">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Autobiography
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="lizSkills.html">Skills</a>
+								</li>
+								<li>
+									<a
+										class="dropdown-item active"
+										aria-current="page"
+										href="lizProjects.html"
+										>Projects</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="lizGallery.html">Gallery</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown mx-3">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Blog
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="lizBlog1.html"
+										>Journey in College</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="lizBlog2.html"
+										>IT Experiences</a
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="d-none d-lg-flex align-items-center">
+					<a
+						href="profilePage.html"
+						class="nav-link"
+						data-bs-toggle="modal"
+						data-bs-target="#logoutModal"
+						>>
+						<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
+			<!-- Project Section Title -->
+			<section id="projects" class="container-fluid py-5 bg-light">
+				<div class="container text-center">
+					<h2 class="fw-bold mb-3">My Creative Projects</h2>
+					<p class="fs-6 text-secondary mb-5">
+						From website projects to other creative builds I’ve made, here’s a
+						highlight reel of the work I’ve poured my heart into. Swipe or click
+						through to see demos, read descriptions, and get inspired!
+					</p>
+				</div>
+			</section>
+
+			<!-- Carousel 1 -->
+			<section class="container-fluid pb-5">
+				<div class="container d-flex justify-content-center">
+					<div
+						id="projectCarousel1"
+						class="carousel slide carousel-fade w-100 w-md-75 w-lg-75"
+						data-bs-ride="carousel"
+						style="max-width: 800px"
+					>
+						<div
+							class="carousel-inner ratio ratio-16x9 rounded-3 shadow overflow-hidden"
+						>
+							<div class="carousel-item active">
+								<img
+									src="Images/lizProject1.1.png"
+									class="d-block w-100 h-100 object-fit-cover"
+									alt="Project 1"
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="Images/lizProject1.2.png"
+									class="d-block w-100 h-100 object-fit-cover"
+									alt="Project 2"
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="Images/lizProject1.3.png"
+									class="d-block w-100 h-100 object-fit-cover"
+									alt="Project 3"
+								/>
+							</div>
+						</div>
+						<!-- Controls -->
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#projectCarousel1"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon bg-dark rounded-circle p-3"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#projectCarousel1"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon bg-dark rounded-circle p-3"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="container-fluid pb-5">
+				<div class="container">
+					<!-- Project Card -->
+					<div class="card shadow-sm mb-4">
+						<div class="card-body text-center">
+							<h5 class="card-title fs-4 fw-bold m-3">
+								Enhancing Cavite State University (CvSU) University Portal
+							</h5>
+							<p class="card-text text-justify">
+								The main goal of the project is to redesign the Cavite State
+								University portal to enhance its user interface. We want to
+								achieve a modern and aesthetically pleasing design that aligns
+								with the university’s identity. We also want to simplify
+								navigation, and add features that will engage the users. We will
+								also make sure that the portal will be accessible to everyone,
+								including those with disabilities. <br /><br />
+								This project will be covered to make the user experience an
+								appealing and easy to access university portal. The proponents
+								will redesign the homepage, dashboards and some key sections of
+								administration,services, campus and colleges etc. By making the
+								key sections components layout simpler and easy to navigate. It
+								focuses on reducing user clicks that the proponents experienced
+								to the current university portal. Having enhancements to its
+								mobile responsiveness and fixing new user interface designs like
+								buttons, forms, icons, adding a search bar, and fixing the
+								sections of the contents. Simplified its drop-down menus, needed
+								to access important sections. Making sure that some branding
+								elements, such as colors, logos and fonts are consistent to its
+								university branding. Otherwise this project will not be covered
+								by any changes with the university systems information.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Carousel 2 (Different ID!) -->
+			<section class="container-fluid pb-5">
+				<div class="container d-flex justify-content-center">
+					<div
+						id="projectCarousel2"
+						class="carousel slide carousel-fade w-100 w-md-75 w-lg-75"
+						data-bs-ride="carousel"
+						style="max-width: 800px"
+					>
+						<div class="carousel-inner rounded-3 shadow overflow-hidden">
+							<div class="carousel-item active">
+								<div class="ratio ratio-16x9">
+									<img
+										src="Images/lizProject2.2.png"
+										class="d-block w-100 h-100 object-fit-cover"
+										alt="Project 2"
+									/>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="ratio ratio-16x9">
+									<img
+										src="Images/lizProject2.1.png"
+										class="d-block w-100 h-100 object-fit-cover"
+										alt="Project 2"
+									/>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="ratio ratio-16x9">
+									<img
+										src="Images/lizProject2.3.png"
+										class="d-block w-100 h-100 object-fit-cover"
+										alt="Project 2"
+									/>
+								</div>
+							</div>
+						</div>
+						<!-- Controls -->
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#projectCarousel2"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon bg-dark rounded-circle p-3"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#projectCarousel2"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon bg-dark rounded-circle p-3"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="container-fluid pb-5">
+				<div class="container">
+					<!-- Project Card -->
+					<div class="card shadow-sm mb-4">
+						<div class="card-body text-center">
+							<h5 class="card-title fs-4 fw-bold m-3">
+								JAVA : Barangay Management with Blotter System
+							</h5>
+							<p class="card-text text-justify">
+								The key idea is to research for the required system features in
+								order to complete the task, most especially the capability of
+								the system to be dynamic using CRUD (Create, Read, Update and
+								Delete) functionalities. The system should have the capability
+								to retain the data using List of Objects and should be the way
+								to be used for data retrieval in generating your own identified
+								reports. <br /><br />
+								<span class="fw-bold">LINKS:</span>
+								<br />
+								<a
+									href="https://youtu.be/b6SUPn7XOxo?si=gMPkCCXjXM3D1wOT"
+									target="_blank"
+									rel="noopener noreferrer"
+									>https://youtu.be/b6SUPn7XOxo?si=gMPkCCXjXM3D1wOT</a
+								><br />
+								<a
+									href="https://youtu.be/BwJSwvaLAcI?si=WpkYVNHf0f1woUvJ"
+									target="_blank"
+									rel="noopener noreferrer"
+									>https://youtu.be/BwJSwvaLAcI?si=WpkYVNHf0f1woUvJ</a
+								>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Carousel 3 (Different ID!) -->
+			<section class="container-fluid pb-5">
+				<div class="container d-flex justify-content-center">
+					<div
+						id="projectCarousel3"
+						class="carousel slide carousel-fade w-100 w-md-75 w-lg-75"
+						data-bs-ride="carousel"
+						style="max-width: 800px"
+					>
+						<div class="carousel-inner rounded-3 shadow overflow-hidden">
+							<div class="carousel-item active">
+								<div class="ratio ratio-16x9">
+									<img
+										src="Images/lizProject3.1.png"
+										class="d-block w-100 h-100 object-fit-cover"
+										alt="Project 3"
+									/>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="ratio ratio-16x9">
+									<img
+										src="Images/lizProject3.2.png"
+										class="d-block w-100 h-100 object-fit-cover"
+										alt="Project 3"
+									/>
+								</div>
+							</div>
+						</div>
+						<!-- Controls -->
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#projectCarousel3"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon bg-dark rounded-circle p-3"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#projectCarousel3"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon bg-dark rounded-circle p-3"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="container-fluid pb-5">
+				<div class="container">
+					<!-- Project Card -->
+					<div class="card shadow-sm mb-4">
+						<div class="card-body text-center">
+							<h5 class="card-title fs-4 fw-bold m-3">
+								ConversAI: AI-Powered Chatbot for Instant and Accurate General
+								Academic Assistance
+							</h5>
+							<p class="card-text text-justify">
+								The primary objective of this project is to enhance the academic
+								experience for students by developing a chatbot that provides
+								immediate and accurate responses to a wide range of inquiries
+								related to their studies. The project aims to facilitate quicker
+								access to essential information, improve student engagement
+								through natural conversation, and reduce frustration caused by
+								traditional support systems, such as waiting for faculty
+								responses. This AI system will minimize response times by
+								efficiently handling a high volume of student queries
+								simultaneously and providing 24/7 support, ensuring students
+								receive assistance whenever they need it. This chatbot will also
+								automate repetitive tasks and address frequently asked questions
+								about course materials, assignment deadlines, and campus
+								resources, thereby improving overall satisfaction and academic
+								success.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div
+			class="modal fade"
+			id="logoutModal"
+			tabindex="-1"
+			aria-labelledby="logoutModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div
+					class="modal-content rounded-4 shadow-lg"
+					style="background-color: #fdf6ff"
+				>
+					<div class="modal-header border-0">
+						<h5
+							class="modal-title fw-bold"
+							id="logoutModalLabel"
+							style="color: #8a0c54"
+						>
+							Are you sure?
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body text-center">
+						<p class="mb-3" style="font-size: 1rem; color: #444">
+							Do you really want to switch the user?
+						</p>
+					</div>
+					<div class="modal-footer border-0 justify-content-center">
+						<button
+							type="button"
+							class="btn btn-outline-secondary rounded-pill px-4"
+							data-bs-dismiss="modal"
+						>
+							No
+						</button>
+						<a
+							href="profilePage.html"
+							class="btn btn-primary rounded-pill px-4"
+							style="background-color: #ab2436; border: none"
+							>Yes</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="bg-dark text-white py-4 footer">
+			<div class="container footer-container">
+				<div class="row text-center text-lg-start align-items-center">
+					<div class="col-lg-4 mb-2 mb-lg-0">
+						<span>Designed by Liezel Paciente</span>
+					</div>
+					<div class="col-lg-4 mb-2 mb-lg-0 text-center">
+						<a
+							href="https://www.facebook.com/share/16btFa7sVQ/"
+							class="text-white mx-2"
+							target="_blank"
+							rel="noopener noreferrer"
+							><i class="bi bi-facebook social-media"></i
+						></a>
+						<a
+							href="https://x.com/clodieeezeli?t=dhDk3P5NciOkoNQwWdFdqA&s=09"
+							class="text-white mx-2"
+							target="_blank"
+							rel="noopener noreferrer"
+							><i class="bi bi-twitter social-media"></i
+						></a>
+						<a
+							href="https://www.instagram.com/hrytdewi?igsh=Y29wNmRoMXNqajFt"
+							class="text-white mx-2"
+							target="_blank"
+							rel="noopener noreferrer"
+							><i class="bi bi-instagram social-media"></i
+						></a>
+						<a
+							href="https://github.com/mecazeli"
+							class="text-white mx-2"
+							rel="noopener noreferrer"
+							target="_blank"
+							><i class="bi bi-github social-media"></i
+						></a>
+					</div>
+					<div class="col-lg-4 text-lg-end">
+						<span>&copy; 2025 Liezel P. | All Rights Reserved</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

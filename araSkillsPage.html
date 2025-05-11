@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+
+		<title>Skills of Arman</title>
+
+		<link rel="stylesheet" href="styling/araHomePage.css" />
+		<link rel="stylesheet" href="styling/araSkillsPage.css" />
+	</head>
+	<body>
+		<!-- Top Navbar -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand me-5" href="araHomePage.html#Home"
+					>Arman | Portfolio</a
+				>
+				<div class="d-flex d-lg-none align-items-center ms-auto">
+					<a href="profilePage.html" class="nav-link">
+						<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						data-bs-target="#logoutModal"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+
+				<div
+					class="collapse navbar-collapse justify-content-center"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item mx-3">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="araHomePage.html#Home"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item dropdown mx-3">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Autobiography
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#Skills">Skills</a></li>
+								<li>
+									<a class="dropdown-item" href="araProjectsPage.html#Projects"
+										>Projects</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="araGalleryPage.html#Gallery"
+										>Gallery</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown mx-3">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Blog
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Journey in College</a>
+								</li>
+								<li><a class="dropdown-item" href="#">IT Experiences</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="d-none d-lg-flex align-items-center">
+					<a
+						href="profilePage.html"
+						class="nav-link"
+						data-bs-toggle="modal"
+						data-bs-target="#logoutModal"
+					>
+						<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Skills Section -->
+		<div class="container py-5" id="Skills">
+			<div class="text-center mb-5">
+				<h2 class="fw-bold display-5">Skills</h2>
+				<p class="text-muted fs-5">
+					From aspiring developer to world of music and portrait artist!
+					Creativity and logic meet in my toolkit.
+				</p>
+			</div>
+
+			<!-- Web Development Card -->
+			<div class="row g-5">
+				<div class="col-10 mx-auto">
+					<div class="flip-card big-card">
+						<div class="flip-card-inner">
+							<!-- Front -->
+							<div
+								class="flip-card-front d-flex flex-column justify-content-center align-items-center text-center p-5"
+							>
+								<i class="bi bi-code-slash display-1 text-primary mb-4"></i>
+								<h3 class="fw-bold">Web Development</h3>
+								<p class="fs-5 text-muted">
+									HTML, CSS, JavaScript, React, Laravel — turning logic into
+									beautiful web interfaces.
+								</p>
+							</div>
+
+							<!-- Back with Carousel -->
+							<div
+								class="flip-card-back d-flex justify-content-center align-items-center"
+							>
+								<div
+									id="webDevCarousel"
+									class="carousel slide w-100 h-100"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-inner rounded shadow-lg">
+										<div class="carousel-item active">
+											<img
+												src="Images/araSkills/HTML-CSS.png"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Web Dev Image 1"
+											/>
+										</div>
+										<div class="carousel-item">
+											<img
+												src="Images/araSkills/JavaScript.png"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Web Dev Image 2"
+											/>
+										</div>
+										<div class="carousel-item">
+											<img
+												src="Images/araSkills/React.png"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Web Dev Image 3"
+											/>
+										</div>
+										<div class="carousel-item">
+											<img
+												src="Images/araSkills/PHP.png"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Web Dev Image 4"
+											/>
+										</div>
+									</div>
+
+									<!-- Controls -->
+									<button
+										class="carousel-control-prev"
+										type="button"
+										data-bs-target="#webDevCarousel"
+										data-bs-slide="prev"
+									>
+										<span
+											class="carousel-control-prev-icon bg-dark rounded-circle"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button
+										class="carousel-control-next"
+										type="button"
+										data-bs-target="#webDevCarousel"
+										data-bs-slide="next"
+									>
+										<span
+											class="carousel-control-next-icon bg-dark rounded-circle"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Music Card -->
+				<div class="col-10 mx-auto">
+					<div class="flip-card big-card">
+						<div class="flip-card-inner">
+							<!-- Front -->
+							<div
+								class="flip-card-front d-flex flex-column justify-content-center align-items-center text-center p-5"
+							>
+								<i
+									class="bi bi-music-note-beamed display-1 text-danger mb-4"
+								></i>
+								<h3 class="fw-bold">Music Production</h3>
+								<p class="fs-5 text-muted">
+									Beat-making, mixing, and sound design. Where code takes a
+									break and rhythm takes over.
+								</p>
+							</div>
+
+							<!-- Back with Carousel -->
+							<div
+								class="flip-card-back d-flex justify-content-center align-items-center"
+							>
+								<div
+									id="musicCarousel"
+									class="carousel slide w-100 h-100"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-inner rounded shadow-lg">
+										<div class="carousel-item active">
+											<img
+												src="Images/araSkills/music-1.png"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Music Image 1"
+											/>
+										</div>
+										<div class="carousel-item">
+											<img
+												src="Images/araSkills/music-2.png"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Music Image 2"
+											/>
+										</div>
+										<div class="carousel-item">
+											<img
+												src="Images/araSkills/music-3.png"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Music Image 3"
+											/>
+										</div>
+									</div>
+
+									<!-- Controls -->
+									<button
+										class="carousel-control-prev"
+										type="button"
+										data-bs-target="#musicCarousel"
+										data-bs-slide="prev"
+									>
+										<span
+											class="carousel-control-prev-icon bg-dark rounded-circle"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button
+										class="carousel-control-next"
+										type="button"
+										data-bs-target="#musicCarousel"
+										data-bs-slide="next"
+									>
+										<span
+											class="carousel-control-next-icon bg-dark rounded-circle"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Art Card -->
+				<div class="col-10 mx-auto">
+					<div class="flip-card big-card">
+						<div class="flip-card-inner">
+							<!-- Front -->
+							<div
+								class="flip-card-front d-flex flex-column justify-content-center align-items-center text-center p-5"
+							>
+								<i class="bi bi-brush display-1 text-success mb-4"></i>
+								<h3 class="fw-bold">Portraits and Other Art</h3>
+								<p class="fs-5 text-muted">
+									Illustrations and portraiture — emotion and vision crafted by
+									hands.
+								</p>
+							</div>
+
+							<!-- Back with Carousel -->
+							<div
+								class="flip-card-back d-flex justify-content-center align-items-center"
+							>
+								<div
+									id="artCarousel"
+									class="carousel slide w-100 h-100"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-inner rounded shadow-lg">
+										<div class="carousel-item active">
+											<img
+												src="Images/araSkills/art-1.jpg"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Art Image 1"
+											/>
+										</div>
+										<div class="carousel-item">
+											<img
+												src="Images/araSkills/art-2.jpg"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Art Image 2"
+											/>
+										</div>
+										<div class="carousel-item">
+											<img
+												src="Images/araSkills/art-3.jpg"
+												class="d-block w-100 h-100 object-fit-cover"
+												alt="Art Image 3"
+											/>
+										</div>
+									</div>
+
+									<!-- Controls -->
+									<button
+										class="carousel-control-prev"
+										type="button"
+										data-bs-target="#artCarousel"
+										data-bs-slide="prev"
+									>
+										<span
+											class="carousel-control-prev-icon bg-dark rounded-circle"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button
+										class="carousel-control-next"
+										type="button"
+										data-bs-target="#artCarousel"
+										data-bs-slide="next"
+									>
+										<span
+											class="carousel-control-next-icon bg-dark rounded-circle"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="text-white py-3 footer">
+			<div class="container footer-container">
+				<div class="row text-center text-lg-start align-items-center">
+					<div class="col-lg-4 mb-2 mb-lg-0">
+						<span>Designed by Ara Christina Ceres</span>
+					</div>
+					<div class="col-lg-4 mb-2 mb-lg-0 text-center">
+						<a href="https://www.facebook.com/rai2929" class="text-white mx-2"
+							><i class="bi bi-facebook social-media"></i
+						></a>
+						<a href="https://x.com/_raixxel" class="text-white mx-2"
+							><i class="bi bi-twitter social-media"></i
+						></a>
+						<a
+							href="https://www.instagram.com/_raixeel/"
+							class="text-white mx-2"
+							><i class="bi bi-instagram social-media"></i
+						></a>
+						<a href="https://github.com/arac880" class="text-white mx-2"
+							><i class="bi bi-github social-media"></i
+						></a>
+					</div>
+					<div class="col-lg-4 text-lg-end">
+						<span>&copy; 2025 Ara C. | All Rights Reserved</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div
+			class="modal fade"
+			id="logoutModal"
+			tabindex="-1"
+			aria-labelledby="logoutModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div
+					class="modal-content rounded-4 shadow-lg"
+					style="background-color: #fdf6ff"
+				>
+					<div class="modal-header border-0">
+						<h5
+							class="modal-title fw-bold"
+							id="logoutModalLabel"
+							style="color: #325b90"
+						>
+							Are you sure?
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body text-center">
+						<p class="mb-3" style="font-size: 1rem; color: #444">
+							Do you really want to switch the user?
+						</p>
+					</div>
+					<div class="modal-footer border-0 justify-content-center">
+						<button
+							type="button"
+							class="btn btn-outline-secondary rounded-pill px-4"
+							data-bs-dismiss="modal"
+						>
+							No
+						</button>
+						<a
+							href="profilePage.html"
+							class="btn btn-primary rounded-pill px-4"
+							style="background-color: #ab2436; border: none"
+							>Yes</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

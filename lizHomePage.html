@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Personal Portfolio</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="styling/lizHomePage.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand me-5" href="#">Zeli | Portfolio</a>
+				<div class="d-flex d-lg-none align-items-center ms-auto">
+					<a href="profilePage.html" class="nav-link">
+						<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						data-bs-target="#logoutModal"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+
+				<div
+					class="collapse navbar-collapse justify-content-center"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item mx-3">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item dropdown mx-3">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Autobiography
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="lizSkills.html">Skills</a></li>
+								<li><a class="dropdown-item" href="lizProjects.html">Projects</a></li>
+								<li><a class="dropdown-item" href="lizGallery.html">Gallery</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown mx-3">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Blog
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="lizBlog1.html">Journey in College</a>
+								</li>
+								<li><a class="dropdown-item" href="lizBlog2.html">IT Experiences</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="d-none d-lg-flex align-items-center">
+					<a href="profilePage.html" class="nav-link" 
+					data-bs-toggle="modal"
+					data-bs-target="#logoutModal">
+						<i class="bi bi-box-arrow-right fs-4 m-2"></i>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+
+<div class="container-fluid portfolio-banner d-flex align-items-center py-5">
+	<div class="container">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-md-7 text-start text-dark mb-4 mb-md-0">
+				<h4 class="fw-semibold">Hi there!</h4>
+				<h1 class="display-5 fw-bold text-highlight">I'm Liezel Paciente</h1>
+				<p class="lead">A passionate Information Technology student eager to build smart and beautiful web applications.</p>
+				<a href="#about" class="btn btn-outline-dark btn-lg mt-3 btn-about">LEARN MORE</a>
+			</div>
+			<div class="col-12 col-md-5 text-center text-md-end">
+				<img src="Images/formalLiz.png" alt="Liezel Paciente" class="img-fluid rounded-circle profile-image" />
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container d-flex justify-content-center py-4" id="about">
+  <div class="card about-me-card">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold m-4 fs-3">ABOUT ME</h5>
+      <p class="card-subtitle mb-2 text-body-secondary text-justify p-2 fs-6">I am Liezel T. Paciente, a passionate IT Student eager to explore the world of technology and create impactful digital solutions.
+				       I am 20 years old and currently lived in Santa Rosa, Laguna. I liked to read some fiction stories and listen to some Taylor Swift songs.
+  Ever since I was young, I’ve been fascinated by how technology can solve real-world problems and bring ideas to life. My journey into IT has taught me not only how to build websites and manage databases but also how to think  adapt in a fast-paced digital environment.
+  Outside the screen, I enjoy reading fiction novels that let my imagination run wild and listening to Taylor Swift songs that speak to different stages of life. I’m also drawn to photography, travel, and storytelling — all of which inspire my creativity and curiosity.
+  My goal is to keep learning, keep building, and one day contribute to meaningful innovations that make people’s lives easier, more connected, and more joyful.
+			</p>
+
+			 <div class="container my-5">
+  <h4 class="mb-4 text-center">Education</h4>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item ">
+      <h6 class="fw-bold mb-1">Bachelor’s Degree in Information Technology</h6>
+      <p class="mb-0">Pamantasan ng Cabuyao</p>
+    </li>
+    <li class="list-group-item">
+      <h6 class="fw-bold mb-1">Accountancy Business and Management</h6>
+      <p class="mb-0">Labas Senior High School</p>
+    </li>
+  </ul>
+</div>
+
+
+    <div class="container my-5">
+  <h4 class="mb-4 text-center">Hobbies</h4>
+  <div class="row text-center justify-content-center">
+    <div class="col-6 col-sm-3 mb-4">
+      <i class="bi bi-geo-alt-fill fs-1 text-primary"></i>
+      <p class="fw-medium mt-2">Traveling</p>
+    </div>
+    <div class="col-6 col-sm-3 mb-4">
+      <i class="bi bi-camera-fill fs-1 text-warning"></i>
+      <p class="fw-medium mt-2">Photography</p>
+    </div>
+    <div class="col-6 col-sm-3 mb-4">
+      <i class="bi bi-book-fill fs-1 text-success"></i>
+      <p class="fw-medium mt-2">Reading</p>
+    </div>
+    <div class="col-6 col-sm-3 mb-4">
+      <i class="bi bi-tree-fill fs-1 text-success"></i>
+      <p class="fw-medium mt-2">Hiking</p>
+    </div>
+  </div>
+</div>
+			
+    </div>
+  </div>
+</div>
+
+<div class="container d-flex justify-content-center py-4">
+  <div class="card about-me-card">
+    <div class="card-body">
+      <!-- Skills Title -->
+      <h5 class="card-title text-center fw-bold m-4 fs-3">SKILLS</h5>
+      
+      <!-- 3x3 Image Grid for Skills -->
+      <div class="row text-center mt-4 justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card mx-auto" style="width: 100%; max-width: 350px;">
+            <img src="Images/HTML.png" class="img-fluid" alt="HTML">
+            <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card mx-auto" style="width: 100%; max-width: 350px;">
+            <img src="Images/CSS.png" class="img-fluid" alt="CSS">
+            <div class="card-body">
+              <h5 class="card-title">CSS</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card mx-auto" style="width: 100%; max-width: 350px;">
+            <img src="Images/MYSQL.png" class="img-fluid" alt="MySQL">
+            <div class="card-body">
+              <h5 class="card-title">MySQL</h5>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container d-flex justify-content-center py-4 mb-5">
+  <div class="card about-me-card">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold m-4 fs-3">WHAT I SPECIALIZE IN ?</h5>
+      <p class="card-subtitle mb-2 text-body-secondary text-justify p-2 fs-6">  My focus lies in creating intuitive, user-friendly web applications and solving real-world problems through technology. 
+        I specialize in full-stack development, working on both the front-end and back-end of web applications. 
+        Additionally, I enjoy designing seamless user experiences and exploring the latest trends in web development and tech innovations.
+			</p>
+    </div>
+  </div>
+</div>
+
+<div
+			class="modal fade"
+			id="logoutModal"
+			tabindex="-1"
+			aria-labelledby="logoutModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div
+					class="modal-content rounded-4 shadow-lg"
+					style="background-color: #fdf6ff"
+				>
+					<div class="modal-header border-0">
+						<h5
+							class="modal-title fw-bold"
+							id="logoutModalLabel"
+							style="color: #8a0c54"
+						>
+							Are you sure?
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body text-center">
+						<p class="mb-3" style="font-size: 1rem; color: #444">
+							Do you really want to switch the user?
+						</p>
+					</div>
+					<div class="modal-footer border-0 justify-content-center">
+						<button
+							type="button"
+							class="btn btn-outline-secondary rounded-pill px-4"
+							data-bs-dismiss="modal"
+						>
+							No
+						</button>
+						<a
+							href="profilePage.html"
+							class="btn btn-primary rounded-pill px-4"
+							style="background-color: #ab2436; border: none"
+							>Yes</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="bg-dark text-white py-4 footer">
+			<div class="container footer-container">
+				<div class="row text-center text-lg-start align-items-center">
+					<div class="col-lg-4 mb-2 mb-lg-0">
+						<span>Designed by Liezel Paciente</span>
+					</div>
+					<div class="col-lg-4 mb-2 mb-lg-0 text-center">
+						<a href="https://www.facebook.com/share/16btFa7sVQ/" class="text-white mx-2" target="_blank"rel="noopener noreferrer"
+							><i class="bi bi-facebook social-media"></i
+						></a>
+						<a href="https://x.com/clodieeezeli?t=dhDk3P5NciOkoNQwWdFdqA&s=09" class="text-white mx-2" target="_blank"  rel="noopener noreferrer"
+							><i class="bi bi-twitter social-media"></i
+						></a>
+						<a href="https://www.instagram.com/hrytdewi?igsh=Y29wNmRoMXNqajFt" class="text-white mx-2" target="_blank" rel="noopener noreferrer"
+							><i class="bi bi-instagram social-media"></i
+						></a>
+						<a href="https://github.com/mecazeli" class="text-white mx-2" rel="noopener noreferrer" target="_blank"
+							><i class="bi bi-github social-media"></i
+						></a>
+					</div>
+					<div class="col-lg-4 text-lg-end">
+						<span>&copy; 2025 Liezel P. | All Rights Reserved</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+			crossorigin="anonymous"
+		></script>
+		
+	</body>
+</html>
